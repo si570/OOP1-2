@@ -42,12 +42,9 @@ public class Fries implements Food {
     }
 
     @Override
-    public String getdescription() {
-        return null;
+    public String getDescription() {
+        return description;
     }
 
-    public void addSalt()
-    {
 
-    }
 }
