@@ -3,12 +3,12 @@ package org.example;
 public class Pizza implements Food {
     String name;
     double price;
-    String desciption;
+    String description;
 
-    public Pizza(String name, double price, String desciption) {
+    public Pizza(String name, double price, String description) {
         this.name = name;
         this.price = price;
-        this.desciption = desciption;
+        this.description = description;
     }
 
     public String getName() {
@@ -27,11 +27,11 @@ public class Pizza implements Food {
         this.price = price;
     }
 
-    public String getDesciption() {
-        return desciption;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDesciption(String desciption) {
-        this.desciption = desciption;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

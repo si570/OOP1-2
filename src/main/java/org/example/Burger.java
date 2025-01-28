@@ -1,6 +1,6 @@
 package org.example;
 
-public class Burger {
+public class Burger implements Food {
 
     String name;
 
